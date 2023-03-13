@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<!-- TODO: More design needed -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Raven" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning how to create as I learn HTML."
+    />
+    <title>My First Web Page</title>
+    <link rel="icon" href="html5.png=" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <div>
+      <h1><em>HTML</em></h1>
+    </div>
+
+    <hr />
+
+    <h2><em>Contents</em></h2>
+
+    <ol>
+      <li>List of issues</li>
+      <li>Some I don't understand</li>
+      <li>Questions I have</li>
+    </ol>
+
+    <br />
+    <br />
+    <br />
+
+    <h1>List of issues</h1>
+    <hr />
+
+    <ol>
+      <li>
+        The problem with list, whenever I center it, it doesn't follow with the
+        centered paragraph.
+      </li>
+      <li>
+        Whenever I make a unordered list and the sentence I typed is long, the
+        dot on the UL is not right beside it.
+      </li>
+      <li>
+        Aligning the image on the right or left side of the screen and typing
+        something beside it.
+      </li>
+      <li>Making my paragraph characters smaller than the title.</li>
+    </ol>
+
+    <br /><br /><br /><br />
+
+    <h1>Some I don't understand</h1>
+    <hr />
+
+    <ol>
+      <li>Using sematic tags properly</li>
+      <li>Using NBSP</li>
+    </ol>
+    <br /><br /><br /><br />
+
+    <h1>Survey!</h1>
+    <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+        <legend>Personal Info</legend>
+        <p>
+          <label for="firstName">First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Jane"
+            autocomplete="on"
+            required
+            autofocus
+          />
+        </p>
+        <p>
+          <label for="lastName">Last Name:</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Doe"
+            autocomplete="on"
+            required
+          />
+        </p>
+        <p>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="your secret"
+            required
+          />
+        </p>
+        <p>
+          <label for="phone">Phone:</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="5555555555"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+            required
+          />
+        </p>
+
+        <p>
+          <label for="Survey">Satisfactory rate:</label>
+          <select name="Surver" id="Survey" multiple size="5">
+            <optgroup label="---------------------------">
+              <option value="Amazing">Amazing</option>
+              <option value="Great">Great</option>
+            </optgroup>
+            <optgroup label="---------------------------">
+              <option value="Good" selected>good</option>
+              <option value="Satisfactory">Satisfactory</option>
+              <option value="Bad">Bad</option>
+            </optgroup>
+          </select>
+        </p>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Was the website accessible?</legend>
+        <p>
+          <input type="radio" name="rate" id="rate" value="rate" />
+          <label for="AA">Above average</label>
+        </p>
+        <p>
+          <input type="radio" name="rate" id="Average" value="Average" />
+          <label for="Average">Average</label>
+        </p>
+        <p>
+          <input type="radio" name="rate" id="BA" value="BA" />
+          <label for="BA">Below Average</label>
+        </p>
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Send Me A Note</legend>
+        <label for="message">Your Message:</label>
+        <br />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Type your message here"
+        ></textarea>
+      </fieldset>
+      <br />
+      <button type="submit">Submit</button>
+      <button
+        type="submit"
+        formaction="https://httpbin.org/post"
+        formmethod="post"
+      >
+        Post
+      </button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
