@@ -1,5 +1,47 @@
 html {
   font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+header {
+  text-align: center;
+}
+nav {
+  border: 0.5px solid #333;
+  border-radius: 2rem;
+  margin: 0auto 1rem;
+  max-width: 800px;
+  line-height: 2rem;
+}
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+li {
+  border-top: 1px solid grey;
+}
+li a {
+  display: block;
+}
+li a:hover,
+li a:focus {
+  background: grey;
+  color: wheat;
+  cursor: pointer;
+}
+.Kontent {
+  background-color: grey;
+
+  border-radius: 0.5rem 0.5rem;
+}
+
+.Link1 {
+  list-style-type: none;
 }
 
 body {
@@ -18,4 +60,16 @@ caption {
   font-family: "Courier New", Courier, monospace;
   border-collapse: separate;
   padding: 0.5rem;
+}
+
+.Survey1:hover,
+.Survey1:focus {
+  background: grey;
+  cursor: pointer;
+}
+.Top {
+  border: 0.5px solid grey;
+  border-radius: 2rem;
+  margin: 0auto 1rem;
+  max-width: 200px;
 }

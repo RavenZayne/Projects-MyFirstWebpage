@@ -38,14 +38,14 @@
 
       <h3>Table of contents</h3>
 
-      <ul>
-        <h2><em>Contents</em></h2>
-
-        <li><a href="#Main tag"> Main text tag</a></li>
-        <li><a href="#Editing tags"> Editing text tags</a></li>
-        <li><a href="#Important tags"> Important tags</a></li>
-      </ul>
-
+      <nav>
+        <h2 id="Selector" class="Kontent"><em>Contents</em></h2>
+        <ul id="Selector" class="Link1">
+          <li><a href="#MainTag"> Main text tag</a></li>
+          <li><a href="#EditingTag"> Editing text tags</a></li>
+          <li><a href="#ImportantTag"> Important tags</a></li>
+        </ul>
+      </nav>
       <br /><br />
 
       <hr />
@@ -54,7 +54,7 @@
     </header>
 
     <body>
-      <section id="#Main tag">
+      <section id="#MainTag">
         <h1>The Paragraph tag</h1>
         <hr />
 
@@ -67,7 +67,7 @@
         </p>
       </section>
 
-      <section id="#Editing tags">
+      <section id="#EditingTag">
         <br /><br /><br />
 
         <h1>Editing text tags</h1>
@@ -105,7 +105,7 @@
         </ol>
       </section>
 
-      <section id="#Important tags">
+      <section id="#ImportantTag">
         <h1>Important tags</h1>
         <hr />
 
@@ -210,11 +210,15 @@
             If you have any comments or suggestions,please refer to this!
           </summary>
 
-          <p><a href="./Website/Pages/Survey.html">Survey</a></p>
+          <p id="Survey" class="Survey1">
+            <a href="./Website/Pages/Survey.html">Survey</a>
+          </p>
         </details>
       </aside>
       <br /><br /><br /><br />
-      <a href="#">Back to the top</a>
+      <nav class="Top">
+        <a href="#">Back to the top</a>
+      </nav>
     </footer>
   </body>
 </html>
