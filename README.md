@@ -28,3 +28,7 @@ Detais and summary element
 2:44:22
 
 2:51:25
+
+Flex trick
+
+Ctrl + B, makes the outline form into dark grey.
